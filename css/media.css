@@ -1,0 +1,364 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	
+.common_padd{
+	padding-bottom: 60px;
+}
+/*header*/
+header{
+	padding: 0 0;
+}
+.logo {
+	width: 180px;
+}
+.menu ul li a {
+	margin-bottom: 6px;
+	padding: 0 15px !important;
+}
+
+/*banner start*/
+.banner {
+	padding-bottom: 40px;
+}
+.b_content {
+	margin-top: 26px;
+    text-align: center;
+}
+.b_h1 {
+	margin: 8px 0 14px 0;
+	font-size: 28px;
+	padding: 0 20px 0;
+	line-height: 34px;
+}
+.b_p2 {
+	padding: 0;
+	line-height: 24px;
+}
+.b_image {
+    padding: 0;
+}
+.b_btn {
+	margin: 15px auto 0;
+	width: 120px;
+	height: 40px;
+}
+
+/*feature start*/
+.feature{
+	padding-top: 12px;
+}
+.f_image {
+    width: 55px;
+    height: 65px;
+}
+.f_h2 {
+    font-size: 22px;
+}
+/*course start*/
+.cm_content {
+    margin-bottom: 20px;
+}
+.cm_h1{
+	font-size: 26px;
+}
+.s_course {
+    margin: 22px 0 0;
+    padding: 20px 12px 22px;
+}
+.c_li:not(:last-child) {
+    margin-right: 0px;
+    width: 18px;
+}
+.cf_left ul li span, .cf_right ul li span{
+	font-weight: 400;
+}
+.s_c_h2 {
+    margin: 10px 0 4px;
+    font-size: 18px;
+}
+/*testimonial start*/
+.c_slide {
+    margin-top: 14px;
+}
+.citem_image {
+    padding: 0 50px 20px;
+}
+.citem_text p {
+	text-align: center;
+    line-height: 26px;
+}
+/*footer top start*/
+.footer_top{
+	padding: 45px 0 34px;
+	text-align: center;
+}
+.f_details {
+	margin-bottom: 4px;
+    padding: 0;
+}
+.f_details p {
+    margin-bottom: 14px;
+    line-height: 24px;
+}
+.f_link {
+    margin-top: 26px;
+}
+.f_link h2 {
+    line-height: 22px;
+}
+.f_link ul li a {
+    line-height: 24px;
+}
+/*footer start*/
+footer {
+    padding: 20px 0;
+}
+footer p{
+    font-size: 14px;
+}
+
+
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+.common_padd{
+	padding-bottom: 60px;
+}	
+
+/*header*/
+header{
+	padding: 6px 0;
+}
+.menu ul li a {
+	margin-bottom: 8px;
+	padding: 0 15px !important;
+}
+
+/*banner start*/
+.banner {
+	padding-bottom: 50px;
+}
+.b_content {
+	margin-top: 26px;
+    text-align: center;
+}
+.b_h1 {
+	font-size: 36px;
+	padding: 0 90px;
+	line-height: 42px;
+}
+.b_p2 {
+	padding: 0 50px;
+	line-height: 26px;
+}
+.b_image {
+    padding: 0 50px;
+}
+.b_btn {
+	margin: 15px auto 0;
+	width: 135px;
+	height: 40px;
+}
+
+/*feature start*/
+.feature{
+	padding-top: 16px;
+}
+.f_image {
+    width: 60px;
+    height: 70px;
+}
+
+/*course start*/
+.s_c_h2 {
+    margin: 10px 0 4px;
+    font-size: 18px;
+}
+.cm_content {
+    margin-bottom: 20px;
+}
+.cm_h1{
+	font-size: 30px;
+}
+.s_course {
+	margin: 22px 60px 0;
+    padding: 18px 16px 20px;
+}
+.c_li:not(:last-child) {
+    margin-right: 0px;
+    width: 20px;
+}
+.cf_left ul li span, .cf_right ul li span{
+	font-weight: 400;
+}
+/*testimonial start*/
+.c_slide {
+    margin-top: 20px;
+}
+.citem_image {
+    padding: 0 120px 20px;
+}
+.citem_text p {
+	text-align: center;
+    line-height: 26px;
+}
+/*footer top start*/
+.footer_top{
+	padding: 45px 0 34px;
+	text-align: center;
+}
+.f_details {
+	margin-bottom: 35px;
+    padding: 0 70px;
+}
+.f_details p {
+    margin-bottom: 16px;
+    line-height: 26px;
+}
+.f_link h2 {
+    line-height: 26px;
+}
+.f_link ul li a {
+    line-height: 26px;
+}
+/*footer start*/
+footer {
+    padding: 20px 0;
+}
+
+}
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+.common_padd{
+	padding-bottom: 80px;
+}
+
+/*header*/
+.menu ul li a {
+	margin-bottom: 10px;
+	padding: 0 15px !important;
+}
+
+/*banner start*/
+.b_content {
+	margin-top: 26px;
+    text-align: center;
+}
+.b_h1 {
+	font-size: 45px;
+    padding: 0 100px;
+    line-height: 60px;
+}
+.b_p2 {
+    padding: 0 70px;
+    line-height: 34px;
+}
+.b_image {
+    padding: 0 80px;
+}
+.b_btn {
+    margin: 15px auto 0;
+}
+/*feature start*/
+
+/*course start*/
+.cm_content {
+    margin-bottom: 26px;
+}
+.s_course {
+	margin: 22px 100px 0;
+    padding: 18px 18px 20px;
+}
+.c_li:not(:last-child) {
+    margin-right: 0px;
+    width: 20px;
+}
+.cf_left ul li span, .cf_right ul li span{
+	font-weight: 400;
+}
+.s_c_h2 {
+    margin: 16px 0 4px;
+    font-size: 18px;
+}
+/*testimonial start*/
+.c_slide {
+    margin-top: 24px;
+}
+.citem_text p {
+    line-height: 28px;
+}
+/*footer top start*/
+.footer_top{
+	text-align: center;
+}
+.f_details {
+	margin-bottom: 35px;
+    padding: 0 120px;
+}
+/*footer start*/
+footer {
+    padding: 24px 0;
+}
+
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+/*banner start*/
+.b_h1{
+	padding: 0 30px 0 0;
+}
+.b_p2 {
+	padding: 0 30px 0 0;
+}
+/*feature start*/
+.f_content {
+    padding: 50px 0 45px;
+}
+
+/*course start*/
+.s_course {
+    padding: 18px 12px 20px;
+}
+.c_li:not(:last-child) {
+    margin-right: 0px;
+    width: 20px;
+}
+.cf_left ul li span, .cf_right ul li span{
+	font-weight: 400;
+}
+
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+/*banner start*/
+.b_h1{
+	padding: 0 30px 0 0;
+}
+.b_p2 {
+	padding: 0 30px 0 0;
+}
+
+}
+
+/*Extra extra large devices (large desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+/*banner start*/
+.b_h1{
+	padding: 0 100px 0 0;
+}
+.b_p2 {
+	padding: 0 90px 0 0;
+}
+/*feature start*/
+.f_content {
+    padding: 65px 0 60px;
+}
+/*footer top start*/
+.f_details {
+    padding-right: 150px;
+}
+
+}
