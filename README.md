@@ -1,4 +1,4 @@
-# e_school
+# eschool
 This is a responsive website with bootstrap.
 
-https://hemontamondal.github.io/e_school/
+https://hemontamondal.github.io/eschool/
