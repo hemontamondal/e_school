@@ -25,6 +25,11 @@ header{
 
 }
 .logo{}
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgb(59 199 65 / 65%) 0px 4px 6px -1px, rgb(67 173 89 / 8%) 0px 1px 0px inset;
+}
 .menu{}
 .menu ul li a{
 	padding: 0 25px !important;
@@ -34,13 +39,13 @@ header{
 		color: #FD511A !important;
 }
 .btn_c{
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	font-family: 'Roboto', sans-serif;
 	color: white !important;
 	background: #21B573;
 	border-radius: 33px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
 }
 .btn_unic{
 	margin-left: 15px;
@@ -95,7 +100,7 @@ header{
 .f_content{
 	margin-top: 24px;
 	padding: 55px 0 50px;
-	background-color: #c0f7e0b0;
+	background-color: #F0FFF0;
 	border-radius: 10px;
 	transition: .33s ease;
 }
@@ -218,9 +223,9 @@ header{
 
 /*footer start*/
 footer{
-	border-top: 1px solid #fffefe42;
 	padding: 30px 0;
 	background-color: #282531;
+	border-top: 1px solid #fffefe42;
 }
 footer p{
 	color: #FFF;
