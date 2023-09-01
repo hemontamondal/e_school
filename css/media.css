@@ -28,8 +28,8 @@ header{
 }
 .b_h1 {
 	margin: 8px 0 14px 0;
-	font-size: 28px;
 	padding: 0 20px 0;
+	font-size: 28px;
 	line-height: 34px;
 }
 .b_p2 {
@@ -83,7 +83,7 @@ header{
     margin-top: 14px;
 }
 .citem_image {
-    padding: 0 50px 20px;
+    padding: 0 70px 20px;
 }
 .citem_text p {
 	text-align: center;
@@ -119,9 +119,7 @@ footer p{
     font-size: 14px;
 }
 
-
 }
-
 /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 767.98px) {
 body{
@@ -130,7 +128,6 @@ body{
 .common_padd{
 	padding-bottom: 60px;
 }	
-
 /*header*/
 header{
 	padding: 6px 0;
@@ -139,7 +136,6 @@ header{
 	margin-bottom: 8px;
 	padding: 0 15px !important;
 }
-
 /*banner start*/
 .banner {
 	padding-bottom: 50px;
@@ -149,8 +145,8 @@ header{
     text-align: center;
 }
 .b_h1 {
-	font-size: 36px;
 	padding: 0 90px;
+	font-size: 36px;
 	line-height: 42px;
 }
 .b_p2 {
@@ -165,7 +161,6 @@ header{
 	width: 135px;
 	height: 40px;
 }
-
 /*feature start*/
 .feature{
 	padding-top: 16px;
@@ -174,7 +169,6 @@ header{
     width: 60px;
     height: 70px;
 }
-
 /*course start*/
 .s_c_h2 {
     margin: 10px 0 4px;
@@ -202,7 +196,7 @@ header{
     margin-top: 20px;
 }
 .citem_image {
-    padding: 0 120px 20px;
+    padding: 0 140px 20px;
 }
 .citem_text p {
 	text-align: center;
@@ -238,21 +232,19 @@ footer {
 .common_padd{
 	padding-bottom: 80px;
 }
-
 /*header*/
 .menu ul li a {
 	margin-bottom: 10px;
 	padding: 0 15px !important;
 }
-
 /*banner start*/
 .b_content {
 	margin-top: 26px;
     text-align: center;
 }
 .b_h1 {
-	font-size: 45px;
     padding: 0 100px;
+	font-size: 45px;
     line-height: 60px;
 }
 .b_p2 {
@@ -321,7 +313,6 @@ footer {
 .f_content {
     padding: 50px 0 45px;
 }
-
 /*course start*/
 .s_course {
     padding: 18px 12px 20px;
@@ -335,7 +326,6 @@ footer {
 }
 
 }
-
 /*Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) and (max-width: 1399.98px) {
 /*banner start*/
@@ -347,7 +337,6 @@ footer {
 }
 
 }
-
 /*Extra extra large devices (large desktops, 1400px and up)*/
 @media (min-width: 1400px) {
 /*banner start*/
